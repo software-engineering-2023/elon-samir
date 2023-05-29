@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        S Bank - (Apply For Loan)
+    </title>
+    <link rel="stylesheet" type="text/css" href="loan.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <label>Account Number:</label>
+        <input type="text" id="accnum" required>
+        <label>Loan Amount:</label>
+        <input type="text" id="amount" required>
+        <label>Loan Type:</label>
+        <select id="type" required>
+            <option value="car">Car Loan</option>
+            <option value="personal">Personal Loan</option>
+        </select>
+        <a href="client.html">Back to Client Page</a>
+        <button type="submit" class="submit" onclick="popUp()">Submit</button>
+    </div>
+    <script src="loan.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        S Bank - (Register)
+    </title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="sb.png" class="logo1">
+        </div>
+        <div class="login">
+            <form action="login.html" id="login">
+                <div class="input">
+                    <label>First Name:</label>
+                    <input type="text" id="fname" required>
+                </div>
+                <div class="input">
+                    <label>Last Name:</label>
+                    <input type="text" id="lname" required>
+                </div>
+                <div class="input">
+                    <label>Birthdate:</label>
+                    <input type="text" id="date" required>
+                </div>
+                <div class="input">
+                    <label>Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input">
+                    <label>Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="input">
+                    <label>Email:</label>
+                    <input type="text" id="email" required>
+                </div>
+                <div class="input">
+                    <label>Phone Number:</label>
+                    <input type="text" id="phone" required>
+                </div>
+                <div class="input">
+                    <label>National ID:</label>
+                    <input type="text" id="id" required>
+                </div>
+                
+                <div>
+                    <label for="user">User:</label>
+                    <select id="user" required>
+                        <option value="client">Client</option>
+                        <option value="banker">Banker</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>

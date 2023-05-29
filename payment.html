@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        S Bank - (Payments)
+    </title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <label> Pay Through Account Number:</label>
+        <input type="text" id="accnum" required>
+        <label>Amount:</label>
+        <input type="text" id="amount" required>
+        <label>Pay Bill For:</label>
+        <select id="type" required>
+            <option value="gas">Gas</option>
+            <option value="water">Water</option>
+            <option value="electricity">Electricity</option>
+            <option value="telephone">Telephone</option>
+        </select>
+        <button type="submit" class="submit" onclick="popUp()">Submit</button>
+    </div>
+    <a href="client.html">Back to Client Page</a>
+    <script src="payment.js"></script>
+</body>
+
+</html>

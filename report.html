@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        S Bank - (Report Issue)
+    </title>
+    <link rel="stylesheet" type="text/css" href="report.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <label>Issue Type:</label>
+        <select id="type" required>
+            <option value="technical">Technical Issue</option>
+            <option value="credit card">Credit Card Issue</option>
+            <option value="other">Other</option>
+        </select>
+        <label>Further Details:</label>
+        <input type="text" id="detail" required>
+        <button type="submit" class="submit" onclick="popUp()">Submit</button>
+    </div>
+    <a href="client.html">Back to Client Page</a>
+    <script src="report.js"></script>
+</body>
+
+</html>
